@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sample">
+  <test thread-count="5" name="Regression Test">
+	  <parameter name="i" value="10"></parameter>
+	  <parameter name="j" value="30"></parameter>
+	  <parameter name="k" value="Nikhil Barange"></parameter>
+    <classes>
+      <class name="basic.TestNGXMLPractice"/>
+    </classes>
+  </test> <!-- Regression Test -->
+</suite> <!-- Sample -->
